@@ -20,8 +20,7 @@ dist/
 # Streamlit & cache
 .streamlit/
 
-# Reports, models and generated files
-reports/
+#models and generated files
 models/
 gridsearch_best_params.csv
 
