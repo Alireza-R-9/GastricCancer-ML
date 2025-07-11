@@ -1,13 +1,13 @@
 # Python cache and virtual environments
 __pycache__/
 *.py[cod]
+.idea/
+.DS_Store
 .venv/
 env/
 venv/
 
 # Editor configs
-.vscode/
-.DS_Store
 .ipynb_checkpoints/
 
 # Compiled and build files
