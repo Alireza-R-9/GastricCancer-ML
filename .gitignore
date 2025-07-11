@@ -1,0 +1,32 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Editor configs
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+
+# Compiled and build files
+*.pkl
+*.log
+*.egg-info/
+build/
+dist/
+
+# Streamlit & cache
+.streamlit/
+
+# Reports, models and generated files
+reports/
+models/
+gridsearch_best_params.csv
+
+# Ignore large generated data
+data/gastric_big.csv
+
+# Allow sample CSV for testing
+!data/gastric_sample.csv
